@@ -1,24 +1,26 @@
 <?php 
-session_start();
-try {
-    $bdd = new PDO('mysql:host=localhost;dbname=projet_html;charset=utf8', 'root', '');
-}
+require_once "db_connect.php";
 
-catch(Exception $e) {
-    die('erreur :'.$e->getMessage());
-}
 // Vérification de la validité des informations
 
 // Hachage du mot de passe
+$passwordHash = password_hash($_POST['motDePasse'], PASSWORD_DEFAULT);
 
 // Insertion
-$req = $bdd->prepare('INSERT INTO membre(nom, prenom, motDePasse, email, adresse, telephone, dateDeNaissance) VALUES(?, ?, ?,  ?,  ?, ?, ?)');
-$req->execute(array($_POST['nom'], $_POST['prenom'], $_POST['motDePasse'], $_POST['email'], $_POST['telephone'], $_POST['adresse'], $_POST['dateDeNaissance']));
-$s = 'SELECT prenom, motDePasse FROM membre WHERE email="'.$_POST['email'].'"';
+$req = $bdd->prepare('INSERT INTO Utilisateurs(nom, prenom, mdp, email) VALUES (:nom, :prenom, :mdp, :email)');
+$req->execute([
+    ':nom' => $_POST['nom'],
+    ':prenom' => $_POST['prenom'],
+    ':mdp' => $passwordHash,
+    ':email' => $_POST['email']
+]);
+
+// Login automatique
+$s = 'SELECT prenom, mdp FROM Utilisateurs WHERE email=\''.$_POST['email'].'\'';
 $rek = $bdd->query($s);
 $resultat = $rek->fetch();
 
-
+session_start();
 $_SESSION['prenom'] = $resultat['prenom'];
 header('Location: membre.php');
 ?>
