@@ -2,35 +2,35 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8" />
-    <title>Le Citron Rose</title>
+    <title>Aquarelle</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Bebas+Neue&display=swap" rel="stylesheet">        
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="images/logo1.jpg" />
+    <link rel="icon" type="image/png" href="images/logo2.png" />
     
 </head>
 
     <body>
         <header>
-            <a id="logo" href="index.html"><img src="images/logo1.jpg" alt="Logo du Citron Rose"></a>
+            <a id="logo" href="index.html"><img src="images/logo2.png" alt="Logo Aquarelle"></a>
         </header>
         
         <?php include("php/Menu.html"); ?>
 
-        <p class="accroche">Le Citron Rose, coaching et salle de sport à Rennes.</p>
+        <p class="accroche">Aquarelle, le réseau des piscines à Rennes.</p>
 
         <div class="separateur"></div>
 
         <div class="presentation">
             <img src="images/accueil_droite.jpg" alt="Cours de yoga">            
             <div class="bienvenue">
-                <p class="bienvenue">Bienvenue au Citron Rose, <br> salle de sport et coaching à domicile à Rennes.</p>
-                <p class="bienvenue">Chez nous le sport est accessible à tous quels que soient vos envies, 
+                <p class="bienvenue">Bienvenue chez Aquarelle, <br> salle de sport et coaching à domicile à Rennes.</p>
+                <p class="bienvenue">Chez nous le sport ou la détente sont accessibles à tous quels que soient vos envies, 
                 vos attentes, votre âge ou votre condition physique ! <br>  Convivialité et bienveillance garanties !</p> 
             </div>
-            <img src="images/accueil_gauche.jpg" alt="Coaching musculation">
+            <img src="images/accueil_gauche.jpg" alt="Coaching">
         </div>
 
         <div class="separateur"></div>
@@ -43,15 +43,11 @@
 
 
         <div class="presentation2">
-            <p>Idéalement situé en plein centre-ville de Rennes, dans la rue Maréchal Foch, sur une surface de 360m2, le club est parfaitement 
-                aménagé pour vous offrir confort et convivialité, et notre coach à domicile Léa peut facilement se déplacer dans un périmètre de 20 kilomètres autour 
-                de la ville de Rennes.</p>
+            <p>Idéalement ... de la ville de Rennes.</p>
 
-            <p>Au Citron Rose, votre suivi n’est pas une option, vous serez accueilli par nos coaches, 
-                qui répondront à toutes vos questions, et vous serez ensuite pris en charge pour un bilan physique, afin de déterminer votre programme.</p> 
+            <p>Chez Aquarelle ...</p> 
                 
-             <p>Bilans personnalisés et réguliers, programmes sur mesure, suivi au club et à domicile, suivez votre évolution 
-                grâce à notre balance médicale impédancemètre dernière génération.</p>   
+             <p>...</p>   
         </div>
 
         <div class="carrousel">        
@@ -105,11 +101,11 @@
                 <img src="images/instagram.png" alt="Instagram">
             </div>
             <div class="adresse">
-                <p> Le Citron Rose</p>
-                <p>12 rue Maréchal Foch</p>
+                <p> Aquarelle</p>
+                <p>125 Avenue Simone Veil</p>
                 <p>35000 RENNES</p>
-                <p>Tél. : 02.99.35.35.35</p>
-                <p>Mail : contact@leCitronrose.bzh</p>
+                <p>Tél. : 02.99.24.24.24</p>
+                <p>Mail : contact@aquarelle.bzh</p>
             </div>
 
             <div class="carteFooter">

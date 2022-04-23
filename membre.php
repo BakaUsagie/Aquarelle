@@ -14,14 +14,11 @@ require_once "auth_required.php";
 
 <body>
     <div>
-        <img class="connexion" src="images/logo2.png" alt="Logo Le Citron Rose">
+        <img class="connexion" src="images/logo2.png" alt="Logo Aquarelle">
     </div>
 
     <?php 
-        if (isset($_SESSION['prenom']))
-            {
-                echo ('<p class="membre">Bienvenue au Citron Rose '. $_SESSION['prenom'].'</p>');
-            }
+        echo ('<p class="membre">Bienvenue chez Aquarelle '. $_SESSION['prenom'].'</p>');
     ?>
 
 </body>
