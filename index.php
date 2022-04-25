@@ -8,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Bebas+Neue&display=swap" rel="stylesheet">        
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="images/logo2.png" />
+    <link rel="icon" type="image/png" href="images/logo1.jpg" />
     
 </head>
 
     <body>
         <header>
-            <a id="logo" href="index.html"><img src="images/logo2.png" alt="Logo Aquarelle"></a>
+            <a id="logo" href="index.html"><img src="images/logo1.jpg" alt="Logo Aquarelle"></a>
         </header>
         
         <?php include("php/Menu.html"); ?>
@@ -23,14 +23,12 @@
 
         <div class="separateur"></div>
 
-        <div class="presentation">
-            <img src="images/accueil_droite.jpg" alt="Cours de yoga">            
+        <div class="presentation">      
             <div class="bienvenue">
-                <p class="bienvenue">Bienvenue chez Aquarelle, <br> salle de sport et coaching à domicile à Rennes.</p>
+                <p class="bienvenue">Bienvenue chez Aquarelle, <br> le site qui répertorie les piscines rennaises</p>
                 <p class="bienvenue">Chez nous le sport ou la détente sont accessibles à tous quels que soient vos envies, 
                 vos attentes, votre âge ou votre condition physique ! <br>  Convivialité et bienveillance garanties !</p> 
             </div>
-            <img src="images/accueil_gauche.jpg" alt="Coaching">
         </div>
 
         <div class="separateur"></div>
@@ -70,13 +68,13 @@
                 <div class="carousel-item" data-interval="4000">
                     <img src="images/avis1.png" alt="avatar">
                     <h1>Louis</h1>
-                    <p>Top, petite salle mais fonctionnelle avec une bonne ambiance!
+                    <p>Top, la piscine des Gayeulles est vraiment bien située avec une bonne ambiance!
                     </br> Une équipe très gentille en plus de ça !</p>                
                 </div>
                 <div class="carousel-item" data-interval="4000">
                     <img src="images/avis3.png" alt="avatar">
                     <h1>Marion</h1>
-                    <p>J'ai connu cette salle de sport par hasard et j'en suis tombé amoureuse. </br>
+                    <p>J'ai connu cette piscine par hasard et j'en suis tombé amoureuse. </br>
                         L'équipe d'animateurs est formidable, toujours à l'écoute et disponible.</p>                
                 </div>
               </div>

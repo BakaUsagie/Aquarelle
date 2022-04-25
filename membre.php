@@ -9,12 +9,12 @@ require_once "auth_required.php";
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Bebas+Neue&display=swap" rel="stylesheet">        
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/png" href="images/logo2.png" />     
+        <link rel="icon" type="image/png" href="images/logo1.jpg" />     
     </head>
 
 <body>
     <div>
-        <img class="connexion" src="images/logo2.png" alt="Logo Aquarelle">
+        <img class="connexion" src="images/logo1.jpg" alt="Logo Aquarelle">
     </div>
 
     <?php 

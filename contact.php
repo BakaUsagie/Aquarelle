@@ -39,11 +39,11 @@
                 <img src="images/instagram.png" alt="Instagram">
             </div>
             <div class="adresse">
-                <p> Le Citron Rose</p>
-                <p>12 rue Maréchal Foch</p>
+            <p> Aquarelle</p>
+                <p>125 Avenue Simone Veil</p>
                 <p>35000 RENNES</p>
-                <p>Tél. : 02.99.35.35.35</p>
-                <p>Mail : contact@lecitronrose.bzh</p>
+                <p>Tél. : 02.99.24.24.24</p>
+                <p>Mail : contact@aquarelle.bzh</p>
             </div>
 
             <div class="carteFooter">
