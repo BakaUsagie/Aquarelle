@@ -62,7 +62,7 @@
                 <p> Aquarelle</p>
                 <p>15 Av. des Gayeulles</p>
                 <p>35700 RENNES</p>
-                <p>Tél. : 02.99.35.35.35</p>
+                <p>Tél. : 02.99.24.24.24</p>
                 <p>Mail : contact@lecitronrose.bzh</p>
             </div>
 

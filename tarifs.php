@@ -96,8 +96,8 @@
             </div>
             <div class="adresse">
                 <p> Aquarelle</p>
-                <p>125 Avenue Simone Veil</p>
-                <p>35000 RENNES</p>
+                <p>15 Av. des Gayeulles</p>
+                <p>35700 RENNES</p>
                 <p>Tél. : 02.99.24.24.24</p>
                 <p>Mail : contact@aquarelle.bzh</p>
             </div>
