@@ -103,7 +103,7 @@
             </div>
 
             <div class="carteFooter">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.9821020590325!2d-1.6876309845551478!3d48.110580979221254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede2d8757945d%3A0x65ab2cd78e788095!2s12%20Place%20Mar%C3%A9chal%20Foch%2C%2035000%20Rennes!5e0!3m2!1sfr!2sfr!4v1616788465541!5m2!1sfr!2sfr" title="Carte" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.7336753918403!2d-1.6529334843863346!3d48.13465917922325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede89169f282b%3A0x1c7ffa9d532fb075!2sPiscine%20des%20Gayeulles!5e0!3m2!1sfr!2sfr!4v1651062810867!5m2!1sfr!2sfr" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
