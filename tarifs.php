@@ -37,7 +37,7 @@
             <tr>
                 <td>
                     Abonnement Duo :
-                    (20 entrées valables 12 mois)
+                    (10 entrées pour 2 valables 12 mois)
                     Entrée par 2 uniquement
                 </td>
 

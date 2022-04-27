@@ -47,6 +47,12 @@
                 
              <p>...</p>   
         </div>
+        <nav>
+    <ul>
+       <a class="menu" href="tarifs.php"><li>Tarifs</li></a> 
+       <a class="menu" href="contact.php"> <li>Contact</li></a>
+    </ul>
+</nav>
 
         <div class="carrousel">        
             <h1 class="carrousel">Les avis de nos clients</h1>
