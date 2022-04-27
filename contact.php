@@ -23,9 +23,9 @@
 
         <div class="contact">
             
-                <p>Numéro de téléphone :  02.99.35.35.35 <br>
-                    Adresse postale : 12 place Maréchal Foch, 35000 RENNES <br>
-                    Adresse e-mail : contact@lecitronrose.bzh
+                <p>125 Avenue Simone Veil - 35000 RENNES</p>
+                <p>Tél. : 02.99.24.24.24</p>
+                <p>Mail : contact@aquarelle.bzh</p>
                 </p> 
             
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.9821020590325!2d-1.6876309845551478!3d48.110580979221254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede2d8757945d%3A0x65ab2cd78e788095!2s12%20Place%20Mar%C3%A9chal%20Foch%2C%2035000%20Rennes!5e0!3m2!1sfr!2sfr!4v1616788465541!5m2!1sfr!2sfr" title="Carte" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>           </div>

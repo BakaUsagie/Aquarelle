@@ -2,76 +2,72 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8" />
-    <title>Le Citron Rose</title>
+    <title>Aquarelle</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Bebas+Neue&display=swap" rel="stylesheet">        
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="images/logo2.png" />
+    <link rel="icon" type="image/png" href="images/logo1.jpg" />
     
 </head>
 
     <body>
         <header>
-            <a href="index.html"><img  " src="images/logo2.png" alt="Logo du Citron Rose"></a>
+            <a href="index.html"><img src="images/logo1.jpg" alt="Logo Aquarelle"></a>
         </header>
         
         <?php include("php/Menu.html"); ?>
 
         <aside><a href="connexion.html" id="espace_membres"><img src="images/membre.png" alt="Espace membres"></a></aside>
 
-        <p class="prezz">Les tarifs pour l'année 2021 :</p>
+        <p class="prezz">Les tarifs pour l'année 2022 :</p>
 
-        <h1>Abonnements mensuels</h1>
+        <h1>Abonnements</h1>
         <table border="1px">
             <tr>
                 <td>
-                    Une séance par semaine :
+                    Abonnement Solo :
+                    (10 entrées valables 12 mois)
                 </td>
                 <td class="prix">
-                    50€ par mois
+                    50€
                 </td>
             </tr>
             <tr>
                 <td>
-                    Deux séances par semaine :
+                    Abonnement Duo :
+                    (20 entrées valables 12 mois)
+                    Entrée par 2 uniquement
                 </td>
 
                 <td class="prix">
-                    99€ par mois
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Trois séances par semaine :
-                </td>
-                <td class="prix">
-                    130€ par mois
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Quatre séances par semaine 
-                </td>
-                <td class="prix">
-                    160€ par mois
+                    80€
                 </td>
             </tr>
             </table>
 
             <div class="separateur"></div>
-            <h1>Séances individuelles à domicile</h1>
+            <h1>Séances individuelles</h1>
 
-            <table border="1px">
+            <table border ="1px">
             <tr>
                 <td>
-                    Une séance :
+                    Une entrée simple :
+                </td>
+                <td class="prix">
+                    6€
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Une séance d'apprentissage de la nage :
                 </td>
                 <td class="prix">
                     16€
                 </td>
             </tr>
+            <tr>
                 <td>
                 Carte de 5 séances :
                 </td>
@@ -99,11 +95,11 @@
                 <img src="images/instagram.png" alt="Instagram">
             </div>
             <div class="adresse">
-                <p> Le Citron Rose</p>
-                <p>12 rue Maréchal Foch</p>
+                <p> Aquarelle</p>
+                <p>125 Avenue Simone Veil</p>
                 <p>35000 RENNES</p>
-                <p>Tél. : 02.99.35.35.35</p>
-                <p>Mail : contact@lecitronrose.bzh</p>
+                <p>Tél. : 02.99.24.24.24</p>
+                <p>Mail : contact@aquarelle.bzh</p>
             </div>
 
             <div class="carteFooter">
