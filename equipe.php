@@ -2,19 +2,19 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8" />
-    <title>Le Citron Rose</title>
+    <title>Aquarelle</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Bebas+Neue&display=swap" rel="stylesheet">        
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="images/logo2.png" />
+    <link rel="icon" type="image/png" href="images/logo1.jpeg" />
     
 </head>
 
     <body>
         <header>
-            <a href="index.html"><img  " src="images/logo2.png" alt="Logo du Citron Rose"></a>
+            <a href="index.html"><img  " src="images/logo1.jpeg" alt="Logo du Citron Rose"></a>
         </header>
         
         <?php include("php/Menu.html"); ?>
@@ -59,15 +59,15 @@
                 <img src="images/instagram.png" alt="Instagram">
             </div>
             <div class="adresse">
-                <p> Le Citron Rose</p>
-                <p>12 rue Maréchal Foch</p>
-                <p>35000 RENNES</p>
+                <p> Aquarelle</p>
+                <p>15 Av. des Gayeulles</p>
+                <p>35700 RENNES</p>
                 <p>Tél. : 02.99.35.35.35</p>
                 <p>Mail : contact@lecitronrose.bzh</p>
             </div>
 
             <div class="carteFooter">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.9821020590325!2d-1.6876309845551478!3d48.110580979221254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede2d8757945d%3A0x65ab2cd78e788095!2s12%20Place%20Mar%C3%A9chal%20Foch%2C%2035000%20Rennes!5e0!3m2!1sfr!2sfr!4v1616788465541!5m2!1sfr!2sfr" title="Carte" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.7336753918403!2d-1.6529334843863346!3d48.13465917922325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede89169f282b%3A0x1c7ffa9d532fb075!2sPiscine%20des%20Gayeulles!5e0!3m2!1sfr!2sfr!4v1651062810867!5m2!1sfr!2sfr" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
