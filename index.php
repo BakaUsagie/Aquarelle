@@ -47,12 +47,12 @@
                 
              <p>...</p>   
         </div>
-        <nav>
+    <nav>
     <ul>
        <a class="menu" href="tarifs.php"><li>Tarifs</li></a> 
-       <a class="menu" href="contact.php"> <li>Contact</li></a>
+       <a class="menu" href="infrastructures.php"> <li>Piscines</li></a>
     </ul>
-</nav>
+    </nav>
 
         <div class="carrousel">        
             <h1 class="carrousel">Les avis de nos clients</h1>
@@ -105,7 +105,7 @@
                 <img src="images/instagram.png" alt="Instagram">
             </div>
             <div class="adresse">
-                <p> Aquarelle</p>
+                <p>Aquarelle</p>
                 <p>15 Av. des Gayeulles</p>
                 <p>35700 RENNES</p>
                 <p>Tél. : 02.99.24.24.24</p>

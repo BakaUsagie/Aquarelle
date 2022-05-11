@@ -19,7 +19,7 @@
 
         <?php include("php/Menu.html"); ?>
 
-        <p class="prez">Paiement en ligne</p>
+        <p class="prez">Règlement</p>
 
         <div class="contact">
             
@@ -36,7 +36,9 @@
                 <p>Cryptogramme visuel</p> 
                     <br> <input type="password"/><br />
             <br><br/>
-            <input type="submit" value="Payer" class="form-submit-button"/>
+            <input type="submit" value="Payer en ligne" class="form-submit-button"/>
+            <br><br/>
+            <input type="submit" value="Payer à la piscine" class="form-submit-button"/>
         </form>
             
          

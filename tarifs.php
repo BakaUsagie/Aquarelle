@@ -19,8 +19,10 @@
         
         <?php include("php/Menu.html"); ?>
 
-        <aside><a href="connexion.html" id="espace_membres"><img src="images/membre.png" alt="Espace membres"></a></aside>
-
+        <aside><a href="connexion.html" id="page_connex"><img src="images/membre.png" alt="Page_connexion"></a></aside>
+        <br />
+            <img  src="images/prix.jpg" alt="Tarifs">
+        <br />
         <p class="prezz">Les tarifs pour l'année 2022 :</p>
 
         <h1>Abonnements</h1>
@@ -84,6 +86,19 @@
                 </td>
             </tr>
         </table>
+    <br />
+        <div class="presentation2">
+            <p>Pour réserver un créneau d'apprentissage de la nage, payer un abonnement, une entrée simple, ou une carte de séances d'apprentissage de la nage</p>             
+             <p>merci de vous connecter ou vous inscrire</p>   
+        </div>
+
+    <br />
+    <nav>
+    <ul>
+       <a class="menu" href="connexion.html"><li>Se connecter</li></a> 
+       <a class="menu" href="inscription.html"> <li>S'inscrire</li></a>
+    </ul>
+    </nav>
 
         <div class="separateur"></div>
         
@@ -95,9 +110,9 @@
                 <img src="images/instagram.png" alt="Instagram">
             </div>
             <div class="adresse">
-                <p> Aquarelle</p>
-                <p>125 Avenue Simone Veil</p>
-                <p>35000 RENNES</p>
+                <p>Aquarelle</p>
+                <p>15 Av. des Gayeulles</p>
+                <p>35700 RENNES</p>
                 <p>Tél. : 02.99.24.24.24</p>
                 <p>Mail : contact@aquarelle.bzh</p>
             </div>
