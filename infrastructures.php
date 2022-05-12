@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8" />
-    <title>Le Citron Rose</title>
+    <title>Aquarelle</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,7 +19,7 @@
 
         <?php include("php/Menu.html"); ?>
 
-        <p class="presentation">Venez pousser les portes de la salle du Citron Rose !</p>
+        <p class="presentation">Venez pousser les portes des piscines d'Aquarelle !</p>
 
         <section class="content">
               <div class="card">
