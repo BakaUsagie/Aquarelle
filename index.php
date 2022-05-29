@@ -23,7 +23,7 @@
 <aside><a href="connexion.php" id="espace_membres"><img src="images/membre.png" alt="Espace membres"></a></aside>
     <body>
         <header>
-            <a id="logo" href="index.html"><img src="images/logo1.jpg" alt="Logo Aquarelle"></a>
+            <a id="logo" href="index.php"><img src="images/logo1.jpg" alt="Logo Aquarelle"></a>
         </header>
         
         <?php include("php/Menu.html"); ?>
