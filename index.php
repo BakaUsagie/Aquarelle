@@ -11,7 +11,17 @@
     <link rel="icon" type="image/png" href="images/logo1.jpg" />
     
 </head>
+<nav>
+    <ul>
+       <a class="menu" href="index.php"><li>Accueil</li></a> 
+       <a class="menu" href="infrastructures.php"> <li>Infrastructures</li></a>
+       <a class="menu" href="equipe.php"><li>Equipe</li></a> 
+       <a class="menu" href="tarifs.php"><li>Tarifs</li></a> 
+       <a class="menu" href="contact.php"> <li>Contact</li></a>
+    </ul>
+</nav>
 
+<aside><a href="connexion.html" id="espace_membres"><img src="images/membre.png" alt="Espace membres"></a></aside>
     <body>
         <header>
             <a id="logo" href="index.html"><img src="images/logo1.jpg" alt="Logo Aquarelle"></a>
