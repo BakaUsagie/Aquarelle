@@ -167,9 +167,9 @@ h1.carrousel{
 
 footer{
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   background-color: #5478d8 ;
-  padding : 20px;
+  padding : 5px;
   text-align: center;
 }
 
