@@ -8,29 +8,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Bebas+Neue&display=swap" rel="stylesheet">        
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="images/logo2.png" />
+    <link rel="icon" type="image/png" href="images/logo1.jpg" />
     
 </head>
 
     <body>
         <header>
-            <a href="index.html"><img  " src="images/logo2.png" alt="Logo du Citron Rose"></a>
+        <a href="index.html"><img src="images/logo1.jpg" alt="Logo Aquarelle"></a>
         </header>
 
         <?php include("php/Menu.html"); ?>
 
-        <p class="presentation">Venez pousser les portes des piscines d'Aquarelle !</p>
+        <p class="presentation">Venez pousser les portes des piscines Aquarelle !</p>
 
         <section class="content">
-              <div class="card">
-                <div class="card__side card__side--front card__side--front-1">
-                  <div class="card__description">
-                   <p class="machines">Notre espace machines</p>
-                  </div>
-                </div>
                 <div class="card__side card__side--back card__side--back-1">
                   <div class="arriere_carte">
-                      <p>Nous vous proposons un espace avec de nombreuses machines adaptées pour le travail du corps dans son intégralité, ainsi qu'une grande salle allouée aux cours collectifs.</p>
+                      <p>Nous vous proposons un espace avec de nombreuses piscine adaptées pour de la détente, ainsi qu'une grande salle allouée aux cours collectifs.</p>
                     </div>
                 </div>
               </div>
@@ -65,21 +59,12 @@
                   <div class="card__description">
                     <p class="detente">Notre espace détente</p>
                   </div>
-                </div>
-                <div class="card__side card__side--back card__side--back-3">
-                  <div class="arriere_carte">
-                      <p>Pour une pause, pour un thé ou pour reposer vos jambes en pleiun travail, n'hésitez pas à passer dans la salle de pause que nous vous proposons. 
-                        Vous pourrez y trouver machine à café, produits de nutrition sportive, boissons fraîches ainsi que de quoi vous asseoir.
-                      </p>                   
-                  </div>
-                </div>
-              </div>
           </section>
 
         
             <h2>Et n'oubliez pas de saluer Marie à l'accueil de notre salle à l'entrée du bâtiment !</h2>
             <div class="separateur"></div>
-            <img class="image_accueil" src="images/accueil_client.jpg" alt="Accueil de la salle de sport">
+            <img class="image_accueil" src="images/accueil_client.jpg">
         </div>
 
         <footer>
@@ -88,16 +73,15 @@
                 <img src="images/instagram.png" alt="Instagram">
             </div>
             <div class="adresse">
-                <p> Le Citron Rose</p>
-                <p>12 rue Maréchal Foch</p>
-                <p>35000 RENNES</p>
-                <p>Tél. : 02.99.35.35.35</p>
-                <p>Mail : contact@lecitronrose.bzh</p>
+                <p> Aquarelle</p>
+                <p>15 Av. des Gayeulles</p>
+                <p>35700 RENNES</p>
+                <p>Tél. : 02.99.24.24.24</p>
+                <p>Mail : contact@aquarelle.bzh</p>
             </div>
 
             <div class="carteFooter">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.9821020590325!2d-1.6876309845551478!3d48.110580979221254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede2d8757945d%3A0x65ab2cd78e788095!2s12%20Place%20Mar%C3%A9chal%20Foch%2C%2035000%20Rennes!5e0!3m2!1sfr!2sfr!4v1616788465541!5m2!1sfr!2sfr" 
-                title="Carte" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.7336753918403!2d-1.6529334843863346!3d48.13465917922325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede89169f282b%3A0x1c7ffa9d532fb075!2sPiscine%20des%20Gayeulles!5e0!3m2!1sfr!2sfr!4v1651062810867!5m2!1sfr!2sfr" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>           </div>            
             </div>
         </footer>
 
