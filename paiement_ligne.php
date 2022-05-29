@@ -25,16 +25,19 @@
             
                 <p>Payer en ligne</p>
                 <br />
-                <img  src="images/carte.jpg" alt="moyens de paiement">
+                    <img src="images/carte.jpg" alt="moyens de paiement">
                 <br />
                 <p>Nom sur la carte</p> 
-                    <br><input type="text"/><br />
+                    <input type="text"/>
+                    <br><br/>
                 <p>Numéro sur la carte</p> 
-                    <br><input type="text"/><br />
+                    <input type="text"/>
+                    <br><br/>
                 <p>Date d'expiration</p> 
-                    <br> <input type="text"/><br />
+                    <input type="text"/>
+                    <br><br/>
                 <p>Cryptogramme visuel</p> 
-                    <br> <input type="password"/><br />
+                    <input type="password"/>
             <br><br/>
             <input type="submit" value="Payer en ligne" class="form-submit-button"/>
             <br><br/>
