@@ -14,10 +14,9 @@
 <nav>
     <ul>
        <a class="menu" href="index.php"><li>Accueil</li></a> 
-       <a class="menu" href="infrastructures.php"> <li>Infrastructures</li></a>
-       <a class="menu" href="equipe.php"><li>Equipe</li></a> 
+       <a class="menu" href="Piscine.php"> <li>Piscines</li></a>
        <a class="menu" href="tarifs.php"><li>Tarifs</li></a> 
-       <a class="menu" href="contact.php"> <li>Contact</li></a>
+
     </ul>
 </nav>
 
@@ -51,16 +50,19 @@
 
 
         <div class="presentation2">
-            <p>Idéalement ... de la ville de Rennes.</p>
+            <p>Sur ce site vous trouverez les informations concernant 3 piscines de la région de Rennes.</p>
 
-            <p>Chez Aquarelle ...</p> 
-                
-             <p>...</p>   
+            <p>Piscine Gayeulles : Bassin de 25 mètres, fosse de plongée de 10 mètres de profondeur, espace détente, hammams, lagune pour les tout- petits et piscine à vagues.</p> 
+            <br> 
+            <p>Spadium Saint-Grégoire : Bassin sportif, ludique, toboggan, pataugeoire et jacuzzis satisferont le plus grand nombre.
+            <p>Un espace détente Spadium Zen sera entièrement dédié au bien-être du corps : Saunas nordiques, Saunas japonnais et hammams.</p>
+            <br>
+            <p>Piscine de Bréquigny : Équipée de deux bassins de 50 mètres, un à l'intérieur et un bassin "nordique" à l'extérieur, de plongeoirs et d'un petit bassin intérieur</p>  
         </div>
     <nav>
     <ul>
        <a class="menu" href="tarifs.php"><li>Tarifs</li></a> 
-       <a class="menu" href="infrastructures.php"> <li>Piscines</li></a>
+       <a class="menu" href="Piscine.php"> <li>Piscines</li></a>
     </ul>
     </nav>
 
