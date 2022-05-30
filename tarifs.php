@@ -21,8 +21,7 @@
         <a href="index.php"><img src="images/logo1.jpg" alt="Logo Aquarelle"></a>
     </header>
 
-    <aside><a href="connexion.php" id="page_connex"><img src="images/membre.png" alt="Page_connexion"></a></aside>
-    <br />
+        <br />
     <img src="images/prix.png" alt="Tarifs">
     <br />
     <style>

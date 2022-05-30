@@ -19,7 +19,6 @@
         <a href="index.html"><img src="images/logo1.jpg" alt="Logo Aquarelle"></a>
         </header>
 
-        <aside><a href="membre.php" id="page_connex"><img src="images/membre.png" alt="Page_connexion"></a></aside>
 
         <style>
             body {
