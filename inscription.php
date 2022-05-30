@@ -25,91 +25,15 @@
             text-align: center;
         }
     </style>
-
-<?php 
-                if(isset($_GET['reg_err']))
-                {
-                    $err = htmlspecialchars($_GET['reg_err']);
-
-                    switch($err)
-                    {
-                        case 'success':
-                        ?>
-                            <div class="alert alert-success">
-                                <strong>Succès</strong> inscription réussie !
-                            </div>
-                        <?php
-                        break;
-
-                        case 'telephone':
-                        ?>
-                            <div class="alert alert-danger">
-                                <strong>Erreur</strong> telephone non valide
-                            </div>
-                        <?php
-                        break;
-
-                        case 'email':
-                        ?>
-                            <div class="alert alert-danger">
-                                <strong>Erreur</strong> email non valide
-                            </div>
-                        <?php
-                        break;
-
-                        case 'email_length':
-                        ?>
-                            <div class="alert alert-danger">
-                                <strong>Erreur</strong> email trop long
-                            </div>
-                        <?php 
-                        break;
-
-                        case 'prenom':
-                        ?>
-                            <div class="alert alert-danger">
-                                <strong>Erreur</strong> prenom trop long
-                            </div>
-                        <?php 
-                        break;
-
-                        case 'nom':
-                        ?>
-                            <div class="alert alert-danger">
-                                <strong>Erreur</strong> nom trop long
-                            </div>
-                        <?php 
-                        case 'already':
-                        ?>
-                            <div class="alert alert-danger">
-                                <strong>Erreur</strong> compte deja existant
-                            </div>
-                        <?php 
-
-                    }
-                }
-                ?>
-
-        <form action="inscription_traitement.php" method="post">
-                <div class="form-group">
-                    <input type="text" name="nom" class="form-control" placeholder="Nom" required="required" autocomplete="off">
-                </div>
-                <div class="form-group">
-                    <input type="text" name="prenom" class="form-control" placeholder="Prenom" required="required" autocomplete="off">
-                </div>
-                <div class="form-group">
-                    <input type="email" name="email" class="form-control" placeholder="Email" required="required" autocomplete="off">
-                </div>
-                <div class="form-group">
-                    <input type="telephone" name="telephone" class="form-control" placeholder="telephone" required="required" autocomplete="off">
-                </div>
-                <div class="form-group">
-                    <input type="motDePasse" name="motDePasse" class="form-control" placeholder="Mot de passe" required="required" autocomplete="off">
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-block">Inscription</button>
-                </div>   
-            </form>
+        <form action="inscription-donnees.php" method="post">
+            <p> <b><label for="nom">Nom</label> : <br><input type="text" name="nom" id="nom" /><br />
+            <label for="prenom">Prénom</label> : <br><input type="text" name="prenom" id="prenom" /><br />
+            <label for="email">Email</label> : <br /> <input type="text" name="email" id="email" /> <br />
+            <label for="motDePasse">Mot de passe</label> : <br /> <input type="password" name="motDePasse" id="motDePasse"> <br />
+            <label for="telephone">Numéro de téléphone</label> : <br /> <input type="text" name="telephone" id="telephone" /> <br /></b></p>
+            <br><br/>
+            <input type="submit" value="Envoyer" class="form-submit-button"/>
+        </form>
 
 
 </body>
