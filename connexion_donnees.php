@@ -2,7 +2,7 @@
 require_once "db_connect.php";
 
 //  Récupération de l'utilisateur et de son mot de passe hashé
-$req = $bdd->query('SELECT prenom, mdp FROM Utilisateurs WHERE email=\''.$_POST['email'].'\'');
+$req = $bdd->query('SELECT prenom, motDePasse FROM Utilisateur WHERE email=\''.$_POST['email'].'\'');
 $resultat = $req->fetch();
 
 // hash de mdp "test" : $2y$10$xIUQZQLn7rVjrK8yu0gKL.BjorrZ6DL0YTF0/2qeqem/FezfI8pbq
@@ -10,7 +10,8 @@ $resultat = $req->fetch();
 // en remplaçant ? par l'id de l'utilisateur
 
 // validation du mot de passe hashé
-if (password_verify($_POST['motDePasseSaisi'], $resultat['mdp'])) {
+//if (password_verify($_POST['motDePasseSaisi'], $resultat['motDePasse'])) {
+if ($_POST['motDePasseSaisi'] == $resultat['motDePasse']) {
     session_start();
     $_SESSION['prenom'] = $resultat['prenom'];
     header('Location: membre.php');

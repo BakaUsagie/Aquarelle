@@ -39,7 +39,7 @@
 	        
         </form>
 
-          <p>Pas encore membre ?<a href="inscription.html"> Inscription</a></p>
+          <p>Pas encore membre ?<a href="inscription.php"> Inscription</a></p>
 
     </body>
 
