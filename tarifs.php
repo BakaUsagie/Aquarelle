@@ -14,16 +14,25 @@
 
     <body>
         <header>
-            <a href="index.html"><img src="images/logo1.jpg" alt="Logo Aquarelle"></a>
+            <a href="index.php"><img src="images/logo1.jpg" alt="Logo Aquarelle"></a>
         </header>
         
         <?php include("php/Menu.html"); ?>
 
-        <aside><a href="connexion.html" id="page_connex"><img src="images/membre.png" alt="Page_connexion"></a></aside>
+        <aside><a href="connexion.php" id="page_connex"><img src="images/membre.png" alt="Page_connexion"></a></aside>
         <br />
             <img  src="images/prix.jpg" alt="Tarifs">
         <br />
-        <p class="prezz">Les tarifs pour l'année 2022 :</p>
+        <style>
+        body {
+            background-image:url("images/piscine.jpg");
+            background-size: cover;
+        }
+        form {
+            text-align: center;
+        }
+    </style>
+   <p class="prezz">Les tarifs pour l'année 2022 :</p>
 
         <h1>Abonnements</h1>
         <table border="1px">
@@ -95,8 +104,8 @@
     <br />
     <nav>
     <ul>
-       <a class="menu" href="connexion.html"><li>Se connecter</li></a> 
-       <a class="menu" href="inscription.html"> <li>S'inscrire</li></a>
+       <a class="menu" href="connexion.php"><li>Se connecter</li></a> 
+       <a class="menu" href="inscription.php"> <li>S'inscrire</li></a>
     </ul>
     </nav>
 

@@ -1,3 +1,19 @@
+
+<?php 
+    session_start();
+    require_once 'db_connect.php'; // ajout connexion bdd 
+   // si la session existe pas soit si l'on est pas connecté on redirige
+    if(!isset($_SESSION['user'])){
+        header('Location:connexion.php');
+        die();
+    }
+
+    // On récupere les données de l'utilisateur
+    $req = $bdd->prepare('SELECT * FROM utilisateurs WHERE token = ?');
+    $req->execute(array($_SESSION['user']));
+    $data = $req->fetch();
+   
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -25,16 +41,6 @@
             text-align: center;
         }
     </style>
-        <form action="inscription-donnees.php" method="post">
-            <p> <b><label for="nom">Nom</label> : <br><input type="text" name="nom" id="nom" /><br />
-            <label for="prenom">Prénom</label> : <br><input type="text" name="prenom" id="prenom" /><br />
-            <label for="email">Email</label> : <br /> <input type="text" name="email" id="email" /> <br />
-            <label for="motDePasse">Mot de passe</label> : <br /> <input type="password" name="motDePasse" id="motDePasse"> <br />
-            <label for="telephone">Numéro de téléphone</label> : <br /> <input type="text" name="telephone" id="telephone" /> <br /></b></p>
-            <br><br/>
-            <input type="submit" value="Envoyer" class="form-submit-button"/>
-        </form>
-
 
 </body>
 

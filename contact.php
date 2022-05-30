@@ -14,7 +14,7 @@
 
     <body>
         <header>
-            <a href="index.html"><img  src="images/logo1.jpg" alt="Logo Aquarelle"></a>
+            <a href="index.php"><img  src="images/logo1.jpg" alt="Logo Aquarelle"></a>
         </header>
 
         <?php include("php/Menu.html"); ?>

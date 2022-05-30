@@ -32,9 +32,10 @@
                                 $motDePasse = password_hash($motDePasse, PASSWORD_BCRYPT, $cost);
                                 
                                 // On insère dans la base de données
-                                $insert = $bdd->prepare('INSERT INTO utilisateurs(nom, prenom, email, telephone, motDePasse, token) VALUES(:nom,, :prenom, :telephone :email, :motDePasse, :token)');
+                                $insert = $bdd->prepare('INSERT INTO Utilisateur(nom, prenom, email, telephone, motDePasse, token) VALUES(:nom,, :prenom, :telephone :email, :motDePasse, :token)');
                                 $insert->execute(array(
-                                    'pseudo' => $pseudo,
+                                    'nom' => $nom,
+                                    'prenom' => $prenom,
                                     'email' => $email,
                                     'telephone' => $telephone,
                                     'motDePasse' => $motDePasse,
@@ -50,3 +51,5 @@
             }else{ header('Location: inscription.php?reg_err=nom'); die();}
         }else{ header('Location: inscription.php?reg_err=already'); die();}
     }
+
+?>
