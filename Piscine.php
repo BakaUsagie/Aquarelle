@@ -11,27 +11,14 @@
     <link rel="icon" type="image/png" href="images/logo1.jpg" />
     
 </head>
-<nav>
-    <ul>
-        <a class="menu" href="index.php">
-            <li>Accueil</li>
-        </a>
-        <a class="menu" href="Piscine.php">
-            <li>Piscines</li>
-        </a>
-        <a class="menu" href="tarifs.php">
-            <li>Tarifs</li>
-        </a>
 
-    </ul>
-</nav>
+<?php include("Menu.html"); ?>
 
     <body>
         <header>
         <a href="index.php"><img src="images/logo1.jpg" alt="Logo Aquarelle"></a>
+        
         </header>
-
-        <?php include("php/Menu.html"); ?>
 
         <p class="presentation">Venez pousser les portes des piscines Aquarelle !</p>
 

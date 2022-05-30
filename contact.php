@@ -17,7 +17,7 @@
             <a href="index.php"><img  src="images/logo1.jpg" alt="Logo Aquarelle"></a>
         </header>
 
-        <?php include("php/Menu.html"); ?>
+        <?php include("Menu.html"); ?>
 
         <p class="prez">Pour nous contacter :</p>
 
