@@ -348,3 +348,11 @@ p.membre {
   font-family: 'Bebas Neue', cursive;
   font-size: 3em;
 }
+
+.vestiaire {
+  background-image: url(images/Vestiaire.png);
+}
+
+.casier {
+  background-image: url(images/Casier.jpg);
+}

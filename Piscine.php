@@ -24,13 +24,13 @@
         <section class="content">
                 <div class="card__side card__side--back card__side--back-1">
                   <div class="arriere_carte">
-                      <p>Nous vous proposons un espace avec de nombreuses piscine adaptées pour de la détente, ainsi qu'une grande salle allouée aux cours collectifs.</p>
+                      <p>Nous vous proposons un espace avec de nombreuses piscines adaptées pour de la détente, ainsi qu'une grande salle allouée aux cours collectifs.</p>
                     </div>
                 </div>
               </div>
               <div class="card">
                 <div class="card__side card__side--front card__side--front-2">
-                  <div class="card__description">
+                  <div class="card__description casier">
                     <p class="casiers">Un espace de rangement sécurisé</p>
                   </div>
                 </div>
@@ -44,8 +44,8 @@
         <section class="content">
               <div class="card">
                 <div class="card__side card__side--front card__side--front-3">
-                  <div class="card__description">
-                    <p class="vestiaires ">Un espace vestiaires avec <br> cabines privatives</p>
+                  <div class="card__description vestiaire">
+                    <p class="vestiaires">Un espace vestiaires avec <br> cabines privatives</p>
                   </div>
                 </div>
                 <div class="card__side card__side--back card__side--back-3">
@@ -54,11 +54,6 @@
                   </div>
                 </div>
               </div>
-              <div class="card">
-                <div class="card__side card__side--front card__side--front-3">
-                  <div class="card__description">
-                    <p class="detente">Notre espace détente</p>
-                  </div>
           </section>
 
         
