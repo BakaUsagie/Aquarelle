@@ -89,7 +89,7 @@ p.pres{
 p.prez{
   text-shadow: -1px -1px white, 1px 1px #333;
   font-size: 2em;
-  background-image: url(images/contact.png);
+  background-image: url("images/piscine.jpg");
   background-attachment: fixed;
   text-align: center;
   padding: 15% 0;
@@ -102,7 +102,7 @@ p.prezz{
   font-family: 'Bebas Neue', cursive;
   text-shadow: -1px -1px white, 1px 1px #333;
   font-size: 2em;
-  background-image: url(images/bas-prix.png);
+  background-image: url("images/piscine.jpg");
   background-attachment: fixed;
   text-align: center;
   padding-top: 15%;
