@@ -351,8 +351,14 @@ p.membre {
 
 .vestiaire {
   background-image: url(images/Vestiaire.jpg);
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-size: cover;
 }
 
 .casier {
   background-image: url(images/Casier.jpg);
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-size: cover;
 }

@@ -51,23 +51,26 @@
             </select></div></br>
             
 
-        <br><input type="submit" value="Envoyer" class="form-submit-button"/></br>
+        <br><input type="submit" value="Envoyer" class="form-submit-button"/>
 
         </form>
 
-        <footer>
+        <footer style="margin-top: 40px;">
             <div class="reseaux">
                 <img src="images/facebook.png" alt="Facebook">
                 <img src="images/instagram.png" alt="Instagram">
             </div>
             <div class="adresse">
-                <p>Aquarelle</p>
-                <p>15 Av. des Gayeulles</p>
-                <p>35700 RENNES</p>
-                <p>Tél. : 02.99.24.24.24</p>
-                <p>Mail : contact@aquarelle.bzh</p>
+                Aquarelle<br/>
+                15 Av. des Gayeulles<br/>
+                35700 RENNES<br/>
+                Tél. : 02.99.24.24.24<br/>
+                Mail : contact@aquarelle.bzh<br/>
             </div>
 
             <div class="carteFooter">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.7336753918403!2d-1.6529334843863346!3d48.13465917922325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede89169f282b%3A0x1c7ffa9d532fb075!2sPiscine%20des%20Gayeulles!5e0!3m2!1sfr!2sfr!4v1651062810867!5m2!1sfr!2sfr" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.7336753918403!2d-1.6529334843863346!3d48.13465917922325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede89169f282b%3A0x1c7ffa9d532fb075!2sPiscine%20des%20Gayeulles!5e0!3m2!1sfr!2sfr!4v1651062810867!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+            </div>
         </footer>
+    </body>
+</html>
